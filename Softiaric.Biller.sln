@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softiaric.Biller", "Softiaric.Biller\Softiaric.Biller.csproj", "{53F0863E-4DB6-441A-979F-30B85C540D0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softiaric.Database", "Softiaric.Database\Softiaric.Database.csproj", "{E6D356F3-33E6-4286-8525-844E4FF9629D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53F0863E-4DB6-441A-979F-30B85C540D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F0863E-4DB6-441A-979F-30B85C540D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F0863E-4DB6-441A-979F-30B85C540D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F0863E-4DB6-441A-979F-30B85C540D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6D356F3-33E6-4286-8525-844E4FF9629D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D356F3-33E6-4286-8525-844E4FF9629D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D356F3-33E6-4286-8525-844E4FF9629D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D356F3-33E6-4286-8525-844E4FF9629D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {241FBF34-93C9-488E-9500-A6ED7104EA7F}
+	EndGlobalSection
+EndGlobal
