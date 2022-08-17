@@ -11,9 +11,18 @@ namespace Softiaric.Database
     public class BilerContext:DbContext
     {
         ConfigurationManager ConfigurationManager { get; set; }
-        public BilerContext():base()
+        public BilerContext(DbContextOptions<BilerContext> options):base(options)
         {
 
         }
+        public DbSet<Users> Users { get; set; }
+        public DbSet<Suppiler> Suppilers { get; set; }
+
+        public DbSet<Addresss> Address { get; set; }
+
+        
+            
+
     }
+
 }

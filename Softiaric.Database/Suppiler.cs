@@ -1,15 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Softiaric.Database
 {
+ [Table("Provider")]
     public class Suppiler
     {
         public int Id { get; set; }
 
+        [Column("Name")]
         public string AccountName { get; set; }
 
         public string AccountCode { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Softiaric.Database
 {
-    internal class Addresss
+    public class Addresss
     {
         public int Id { get; set; }
 
